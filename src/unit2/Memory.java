@@ -5,6 +5,52 @@ import unit1.LinearSearch;
 public class Memory {
     public static void main(String[] args) {
 
+//        Person per1 = new Person("Elly", 31);
+//        Person per2 = new Person("Jake", 26);
+//        Person per3 = per1;
+//
+//        int i = 5;
+//        char c = '@';
+//        double d = 17.0;
+//        float f = 21.0f;
+//        int i2 = 7;
+//        int i3 = i;
+//        i = 6;
+
+
+        // memory
+        /*
+        Var   |  Mem.  |
+        Name  |  Addr. | Value
+        -----------------------
+        i     |  100   |  6
+        c     |  101   |  @
+        d     |  102   |  17
+        ...   |  ...   | ....
+        f     |  105   |  21
+        ...   |  ...   | ....
+        per1  |  120   | 125;
+        per2  |  121   | 140
+        per3  |  122   | 125
+        ...   |  ....  |  ...
+        N/A   |  125   | George; 31
+        ...   |  ....  |  ...
+        N/A   |  140   | Jake; 26
+        ...   |  ....  |  ...
+        i2    |  150   |  7
+        i3    |  151   |  5
+         */
+        // if (memAddr[100] has the same value as memAddr[150]) ...
+//        if (i == i2) {}
+
+        // if (memAddr[100] has the same value as memAddr[151]) ...
+//        if (i == i3) {}  // TRUE
+
+        //  =         this is the assignment operator and it copies a value at a memory address to whatever its being assigned to
+        //  ==        this is called the identity operator
+        // equals()   this is a method for checking if two objects have the same value(s)
+
+
 /*
         // primitives
         int a;
